@@ -1,0 +1,547 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+   
+}
+html{
+    scroll-behavior: smooth;
+}
+.Z{
+    height: 100px;
+    width: 100%;
+}
+/*Navigation bar*/
+
+.navbar{
+    background-color: rgb(63, 39, 39);
+    height: 100px;
+    width: 100%;
+    position: fixed;
+}
+.logo{
+    width: 15%;
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+    
+}
+.logo .I1{
+    height: 70px;
+    width: 120px;
+    margin-left: 20px;
+}
+.navbar .items{
+    float: left;
+    width: 45%;
+    height: auto;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.navbar .items ul{
+    list-style: none;
+    float: left;
+}
+.navbar .items ul li {
+    float: left;
+    font-size: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    padding-top: 20px;
+}
+.navbar .items ul li a{
+    color: beige;
+    text-decoration: none;
+}
+.navbar .items ul li a:hover{
+    transition: ease-out 1s;
+    font-size: 22px;
+    color: rgb(179, 119, 30);
+}
+.navbar .right{
+    float: right;
+    margin-top: 17px;
+    margin-right: 25px;
+}
+.navbar .right i{
+    padding: 15px;
+    margin-right: 25px;
+    margin-top: 15px;
+    color: white;
+}
+.navbar .right i:hover{
+    cursor: pointer;
+    border-radius: 35px;
+    transition: ease-out 1s;
+    background-color: burlywood;
+}
+/* Section of coffee cookie which fills color */
+#extraE{
+    height: 100vh;
+    width: 100%;
+    margin-top: 120px;
+}
+#extraE .data h1{
+    text-align: center;
+    margin-top: 70px;
+    font-size: 60px;
+    color: rgb(36, 22, 22);
+    font-family: 'Newsreader', serif;
+}
+#extraE img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 35px;  
+}
+#extraE .data_intro{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(36, 22, 22);
+    margin-top: 20px;
+}
+#extraE .container{
+    display: flex;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 100px;
+}
+#extraE .contain img{
+    width: 120px;
+    height: 120px;
+    margin-bottom: 40px;
+}
+#extraE #container1 img:hover{
+    content: url(IMG/edit11.png);
+    cursor: pointer;
+}
+#extraE #container2 img:hover{
+    content: url(IMG/edit22.png);
+    cursor: pointer;
+}
+#extraE #container3 img:hover{
+    content: url(IMG/edit33.png);
+    cursor: pointer;
+}
+#extraE #container4 img:hover{
+    content: url(IMG/edit44.png);
+    cursor: pointer;
+}
+#extraE .contain{
+    margin: 10px;
+    align-items: center;
+}
+#extraE .contain p{
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    background-color: rgb(82, 51, 51);
+}
+/* Section A - HOME PAGE */
+#A{
+    height: 90vh;
+    width: 100%;
+    background-color: rgb(201, 169, 130)
+}
+#A .mySlides .myImg{
+    height: 50%;
+    width: 50%;
+    margin-left: 65px;
+    margin-top: 60px;
+    border-radius: 200px;
+}
+/* Paragraphs on home page */
+#A .mySlides .changing-content{
+    float: right;
+    height: 50%;
+    width: 35%;
+    margin-top: 150px;
+    text-align: center;
+    margin-right: 20px;
+    font-size: 40px;
+    font-family: 'Cinzel Decorative', serif;
+}
+/* Hide the images by default */
+.mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 30px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 40%;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(94, 78, 55, 0.8);
+  }
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  /* Section B - Menu Page to order */
+#B{
+    height: 150vh;
+    width: 100%;
+    background-color: rgb(219, 182, 136);
+}
+#B .hot_bevg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 150px;
+    padding-top: 70px;
+    font-family: 'Newsreader', serif;
+}
+#B .hot_bevg .heading{
+    text-align: center;
+    font-size: 60px;
+    color: rgb(36, 22, 22);
+    
+}
+#B .hot_bevg img{
+    margin-bottom: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 35px;
+}
+#B .hot_bevg_intro{
+    font-size: 20px;
+    text-align: center;
+}
+/* Left side of menu */
+.B1 ul{
+    margin-top: 110px;
+    width: 45%;
+    float: left;
+    margin-left: 50px;
+}
+.B1 ul li{
+    font-family: 'Newsreader', serif;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-left: 10px;
+    list-style: none;
+    font-family: 'Cinzel Decorative', serif;
+}
+.B1 ul .hot_bevg_s img{
+    size: 30px;
+    padding: 20px;
+}
+
+.B1 ul .hot_bevg_s{
+    display: flex;
+}
+/* Right side of menu */
+.B2 ul{
+    margin-top: 110px;
+    width: 45%;
+    float: right;
+    margin-right: 50px;
+}
+.B2 ul li{
+    font-family: 'Newsreader', serif;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-left: 10px;
+    list-style: none;
+    font-family: 'Cinzel Decorative', serif;
+}
+.B2 ul .hot_bevg_s{
+    display: flex;
+}
+.B2 ul .hot_bevg_s img{
+    size: 30px;
+    padding: 20px;
+}
+/* Order button in Menu page */
+#B #clickme{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 10%;
+    width: 20%;
+    background-color: pink;
+    border-radius: 30px;
+    border: 2px solid black;
+}
+#B #clickme:hover{
+    cursor: pointer;
+    background-color: black;
+}
+#B #clickme p{
+    font-size: 30px;
+    padding: 5px;
+    color: brown;
+    font-family:'Cinzel Decorative', serif;
+}
+/* Section C - Products page */
+#C{
+    height: 120vh;
+    width: 100%;
+    background-color: white;
+}
+#C .container{
+    margin-left: 50px;
+}
+/* Section C totalblock along with heading */
+#C .container .totalblock{
+    margin-left: 70px;
+}
+#C .container .introduction{
+    font-size: 60px;
+    margin-top: 100px;
+    text-align: center;
+    font-family: 'Newsreader', serif;
+    color: rgb(36, 22, 22);
+}
+/* Products in upper line */
+#C .container .totalblock .upperblock{
+    display: flex;
+}
+#C .container .totalblock .contain{
+    padding: 20px;
+    margin: 20px;
+}
+#C .container .totalblock .contain img:hover{
+    box-shadow: 10px 10px 5px burlywood;
+    transition: all 1s;
+    opacity: 0.7;
+    cursor: pointer;
+}
+/* Name of product */
+#C .container .totalblock .contain .super{
+    text-align: center;
+}
+/* Price of product */
+#C .container .totalblock .contain .base{
+    text-align: center;
+}
+/* Products in lower line */
+#C .container .totalblock .lowerblock{
+    display: flex;
+}
+/* Product Images */
+#C .container .totalblock .contain img{
+    display: block;
+    width: 200px;
+    height: 200px;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    opacity: 1;
+}
+#C .container .totalblock .contain:hover .middle{
+    opacity: 1;
+}
+#C .container .totalblock .contain:hover .contain{
+    opacity: 0.8;
+}
+#C .container .totalblock .upperblock .contain .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+/* About US page with photo gallery and comments */
+#extraF{
+    height: 150vh;
+    width: 100%;
+    background-color: rgb(209, 160, 119);
+}
+#extraF h3{
+    text-align: center;
+    margin-bottom: 30px;
+    padding-top: 40px;
+    font-size: 30px;
+    color: rgb(36, 22, 22);
+    font-family: 'Cinzel Decorative', serif;
+    
+}
+.aa{
+    width: 100%;
+}
+#extraF h1{
+    text-align: center;
+    padding-top: 70px;
+    font-size: 30px;
+    color: rgb(36, 22, 22);
+    font-family: 'Cinzel Decorative', serif;
+}
+#extraF .gallery{
+    display: flex ;
+    gap: 100px;
+    margin-left: 48px;
+}
+#extraF .gallery img{
+    height: 300px;
+    width: 350px;
+}
+#extraF .comments{
+    display: flex;
+    margin-top: 20px;
+    gap: 20px;
+}
+#extraF .comments .cmnt{
+    background-color: whitesmoke;
+    border-radius: 3px;
+    padding: 16px;
+    margin: 16px;
+    width: 280px;
+}
+#extraF .comments .cmnt p{
+    font-size: 13px;
+    font-family: 'Cinzel Decorative', serif;
+}
+#extraF .comments .cmnt:hover{
+    cursor: pointer;
+    transition: all ease-in-out 0.5s;
+    background-color: rgb(146, 105, 42);
+}
+/* About stores and MAil subscription */
+#D{
+    background-image: url(IMG/background2.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+#D .center img{
+    height: 100px;
+    width: 175px;
+    display: block;
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+#D p{
+    font-family: 'Newsreader', serif;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 20px;
+}
+#D .store h1{
+    font-size: 30px;
+    margin-top: 45px;
+}
+#D .store{
+    font-family: 'Newsreader', serif;
+    line-height: 30px;
+    color: white;
+    text-align: center;
+}
+#D .mail h2{
+    margin-top: 80px;
+    text-align: center;
+    color: white;
+}
+#D .mail input{
+    margin-left: 43%;
+    padding: 25px 20px 25px 20px;
+    margin-bottom: 60px;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: rgb(211, 191, 165);
+}
+/* Contact last page */
+#G{
+    background-color: rgb(37, 37, 37);
+    height: 30vh;
+    width: 100%;
+}
+#G h6{
+    float: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    font-size: 20px;
+    margin-left: 40px;
+    margin-top: 70px;
+    width: 25%;
+}
+#G .download{
+    width: 15%;
+    float: left;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+#G .download img:hover{
+    cursor: pointer;
+}
+#G .links{
+    float: right;
+    margin-top: 50px;
+    margin-right: 40px;
+}
+#G .links ul li {
+    float: left;
+    margin: 5px;
+    padding: 10px;
+    list-style: none;
+}
+#G .links ul li a img{
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+#G .items{
+    float: left;
+    margin-left: 10px;
+    padding-left: 90px;
+    width: 30%;
+    margin-top: 70px;
+}
+#G .items ul {
+    margin: 6px;
+    list-style: none;
+    margin-left: -50px;
+}
+#G .items ul li{
+    float: left;
+    font-size: 22px;
+    padding: 6px;
+}
+#G .items ul li a{
+    color: beige;
+    text-decoration: none;
+}
+#G .items ul li:hover{
+    transition: ease-out 1s;
+    background-color: brown;
+}
+  
+#G .links ul li a {
+    text-align: center;
+    background: #333;
+    border-radius: 50%;
+    color: #666;
+}
